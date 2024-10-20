@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Pacifico&family=Courgette&family=Lobster&family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <title>Thiệp Chúc Mừng 20-10</title>
+</head>
+<body>
+    
+    <div id="loading-screen">
+        <div class="loader"></div>
+        <p>Đang tải...</p>
+    </div>
+    
+    <div class="card" style="display: none;"> 
+        <h1 class="title">Chúc mừng ngày Phụ nữ <br> Việt Nam 20-10</h1>
+        <div class="message" id="message">
+            <p class="message-text">
+                Hai chị, hôm nay là ngày dành riêng cho những người phụ nữ tuyệt vời như chị! 
+                em muốn gửi đến hai chị những lời chúc tốt đẹp nhất. Chúc hai chị luôn xinh đẹp, 
+                hạnh phúc và tràn đầy sức sống. Em rất vui khi có bạn là hai chị :(
+            </p>
+            <p class="image-background">
+            </p>
+              
+
+            <!-- <p class="message-text">
+                Trong từng khoảnh khắc, anh luôn trân trọng và yêu thương em. 
+                Hãy nhớ rằng, em không chỉ là người yêu của anh mà còn là người bạn 
+                đồng hành trong cuộc sống. Anh hy vọng em sẽ luôn nở nụ cười và 
+                sống trọn vẹn từng ngày.
+            </p>
+            <p class="message-text">
+                Chúc em một ngày 20-10 thật ý nghĩa, và hãy luôn biết rằng 
+                anh yêu em rất nhiều! ❤️
+            </p> -->
+        </div>
+        <button class="open-letter" onclick="toggleMessage()">Mở Thư</button>
+        <!-- <div class="share-buttons">
+            <a href="#" onclick="shareFacebook()">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" onclick="shareTwitter()">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" onclick="shareMessenger()">
+                <i class="fab fa-facebook-messenger"></i>
+            </a>
+        </div> -->
+        
+        <div class="footer">
+            <p> Từ đứa em đẹp trai cute, ngầu của hai chị </p>
+        </div>
+    </div>
+    
+    <div id="flowers"></div> 
+    <div id="bubbles"></div> 
+    <audio id="letter-sound" src="sound/S1.mp3" preload="auto"></audio>
+    <canvas id="fireworksCanvas"></canvas>
+
+    <script src="config.js"></script>
+</body>
+</html>
